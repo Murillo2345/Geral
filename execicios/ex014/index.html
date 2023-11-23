@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Poppins&family=Rubik&family=Secular+One&family=Work+Sans&display=swap');
+
+        body{
+            font-family: 'work sans',Arial, Helvetica, sans-serif;
+            /*
+              adiciona uma familia de fontes, caso n rode a primeira vai passando para as seguintes
+            */
+            font-size: 1em;
+            /*
+               Medidas Absolutas: cm, mm, in, px, pt, pc
+               Medidas Relativas: em, ex, rem, vw, vh, % 
+               16px geralmente = 1em
+            */
+            font-weight: bold;
+            /*
+              Tipo de peso: lighter, normal, bold, bolder 
+              Variação numerica: 100-900 
+            */
+            /*
+             weight = peso
+             width = largura
+             height = altura
+            */
+            font-style: italic;
+            /*
+             Você escolhe se quer a fonte em: normal ou italic
+            */
+            text-decoration: underline;
+            /*
+             adiciona um siblinhado
+            */
+        }
+        h1{
+            /* shorthand font(posso atribuir varios valores diferentes em uma unica linha, otimizado assim o codiogo):
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em sans-serif;
+        }
+        h2{
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus fuga vel sunt accusantium, debitis, eum ea veniam, similique quaerat quas distinctio numquam obcaecati quae soluta dignissimos modi enim deserunt mollitia!</p>
+        <h2>Fontes 2</h2>
+             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, iure iste? At nostrum, pariatur quas tempora placeat optio perspiciatis molestias aliquid nam veritatis, quisquam perferendis sequi ducimus culpa quo harum!</p>
+</body>
+</html>

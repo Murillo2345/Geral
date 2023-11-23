@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+        <p>Esse video está hospedado no meu próprio servidor.</p>
+    <video width="560" poster="imagens/download.jpeg" controls autoplay loop>
+        <source src="video/169471 (720p).mp4" type="video/mp4">
+        <source src="video/169471-_720p_.m4v" type="video/m4v">
+        <source src="video/169471-_720p_.mkv" type="video/mkv">
+        <source src="video/169471-_720p_.ogv" type="video/ogv">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>  
+    <p>Essa e uma forma de inserir videos, o lado negativo e que quando seu site tem muitos acessos ele gera custos elevados pelo cosumo de dados do servidor local</p>
+     
+    <h1>Inserido videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OgsK-geUpl4?si=iREnt12NT-z31f6b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>Dessa forma o cliente consome dados do servidor do YouTube</p>
+
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/872349418?h=8220cf9817&autoplay=1&color=ffffff&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/872349418">MELA</a> from <a href="https://vimeo.com/krismerc">Kristian Mercado Figueroa</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    <p>Para uso proficional, consome os dados do vimeo</p>
+
+</body>
+</html

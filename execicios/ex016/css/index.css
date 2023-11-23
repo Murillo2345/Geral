@@ -1,0 +1,49 @@
+h1{ /* box-level*/
+    background-color: rgb(244, 247, 244);
+    height: 300px;
+    width: 300px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    /*
+    Simplificando:
+    border: 10 solid darkslategray;
+    */
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   /*
+   paddind: 10px; (se forem todos iguais o 10px vai se aplicado para todos)
+   */
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    /*
+    margin: 20px 20px 40px 20px;(se forem valores diferentes devem se expesificados)
+    */
+    outline: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+    /*
+    outline:5px dashed salmon;
+    */
+}
+a{ /* inline-livel*/
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*
+ em HTML é id = em CSS é #
+ em HTML é class = em CSS é .(ponto)
+ : = pseudo-classe
+ :: = pseudo-element
+ > = clildren
+*/
+body{
+    background-color: #d58c4c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #4D2D11;
+}
+h1#Principal{
+   text-align: center;
+   color: #f4f8f8;
+}
+h2{
+    color: #75451A;
+}
+.basico{
+   color: #0800EB;
+   font-weight: bold;
+}
+.intermediario{
+  color: #13df46;
+}
+.avancado{
+  color: #f4f148;
+}
+.destaque{
+    background-color: rgba(255, 164, 235, 0.574);
+}

@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(42, 211, 42);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(219, 22, 22);
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: yellow;
+}
+.especial{
+    background-color: rgb(246, 153, 220);
+    color: white;
+}
+.especial::before{
+    content: '❂';
+}
+.especial::after{
+    content: '❂';
+}
